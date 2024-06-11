@@ -1,31 +1,22 @@
 export const meta = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "New Remix SPA" },
+    { name: "description", content: "Welcome to Remix (SPA Mode)!" },
   ];
 };
 
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <h1>Welcome to Remix</h1>
+      <h1>Welcome to Remix (SPA Mode)</h1>
       <ul>
         <li>
           <a
             target="_blank"
-            href="https://remix.run/start/quickstart"
+            href="https://remix.run/guides/spa-mode"
             rel="noreferrer"
           >
-            5m Quick Start
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/start/tutorial"
-            rel="noreferrer"
-          >
-            30m Tutorial
+            SPA Mode Guide
           </a>
         </li>
         <li>
