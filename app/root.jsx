@@ -27,3 +27,7 @@ export function Layout({ children }) {
 export default function App() {
   return <Outlet />;
 }
+
+export function HydrateFallback() {
+  return <p>Loading...</p>;
+}
